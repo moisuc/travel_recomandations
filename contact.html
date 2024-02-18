@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"  >
+    <title>Home</title>
+</head>
+<body>
+    <nav class="bg-gray-900 text-white p-3 fixed w-full z-10 top-0">
+        <div class="container mx-auto flex flex-wrap items-center justify-between">
+            <div class="flex items-center">
+                <a href="#" class="text-xl font-semibold text-white">TravelMoi</a>
+            </div>
+         
+            <div class=" lg:block">
+                <ul class="flex space-x-4">
+                    <li><a href="./travel_recomandation.html" class="py-2 px-3 text-white hover:bg-gray-700 rounded ">Home</a></li>
+                    <li><a href="./about.html" class="py-2 px-3 text-white hover:bg-gray-700 rounded">About Us</a></li>
+                    <li><a href="./contact.html" class="py-2 px-3 text-white hover:bg-gray-700 rounded underline">Contact Us</a></li>
+                 
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="relative h-screen bg-cover bg-center bg-no-repeat pt-16" style="background-image: url('back_img.jpg');">
+        <!-- Social Media Icons -->
+        <div class="absolute left-0 bottom-0 ml-4 mb-4">
+            <div class="flex flex-col space-y-2">
+                <a href="#" class="text-white hover:text-gray-300 text-2xl">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="text-white hover:text-gray-300 text-2xl">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="text-white hover:text-gray-300 text-2xl">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <!-- Add more social icons as needed -->
+            </div>
+        </div>
+    
+        <!-- Centered Content -->
+        
+        <div class="h-full flex items-center justify-center" id="home">
+            <div class="text-center text-white px-6 md:px-12">
+                <h1 class="text-5xl font-bold uppercase ">CONTACT US</h1>
+               <form><div class="grid md:gap-8 md:grid-cols-2">
+                <div class="mb-6"><label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">First name</label>
+                    <input required="" type="text" id="first_name" placeholder="John" 
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" value=""></div><div class="mb-6"><label for="last_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Last name</label><input required="" type="text" id="last_name" placeholder="Doe" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" value=""></div></div><div class="mb-6"><label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email address</label><input required="" type="email" id="email" placeholder="john.doe@company.com" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" value=""></div><div class="mb-6"><label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label><input required="" type="text" id="subject" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Subject name" value=""></div><div class="mb-6"><label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Message</label><textarea required="" id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your message..."></textarea></div><div class="mb-6"><div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation" name="a-m7nzaks9rnt6" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcKn58eAAAAAFD-lFXQHCSkdJ9V76lq3KLyNygU&amp;co=aHR0cHM6Ly9mbG93Yml0ZS5jb206NDQz&amp;hl=en&amp;type=image&amp;v=yiNW3R9jkyLVP5-EEZLDzUtA&amp;theme=light&amp;size=invisible&amp;badge=bottomright&amp;cb=9oml6kswcxwe"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div></div>
+                    <button class="text-white font-medium rounded-lg text-base px-5 py-3 w-full sm:w-auto text-center bg-blue-700" type="submit">
+                        <span class="flex justify-center items-center">Submit</span></button></form>
+            </div>
+        </div>
+    
+    </div>
+  
+    <script src="./script.js"></script>
+</body>
+</html>
